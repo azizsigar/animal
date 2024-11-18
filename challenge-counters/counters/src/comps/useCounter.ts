@@ -8,7 +8,9 @@ export const useCounter = (initialValue: number = 0) => {
   const increment = (): void => {
     setCount((prevCount) => prevCount + 1); // Increment the count
   };
-
+ 
+    
+    
   const reset = (): void => {
     setCount(0); // Reset the count to 0
   };
