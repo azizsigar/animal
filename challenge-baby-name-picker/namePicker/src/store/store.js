@@ -1,5 +1,5 @@
-import {create} from "zustand";
-import babyNames from "../../../babyNamesData.json";
+import { create } from "zustand";
+import babyNames from "../../babyNamesData.json";
 
 const useSearchStore = create((set) => ({
   searchQuery: "",
