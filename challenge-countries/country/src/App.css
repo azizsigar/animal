@@ -1,0 +1,18 @@
+
+html{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color: black;
+    color: white;
+    
+}
+body{
+    height: 100vh;
+}
+button{
+    background-color: green;
+    border: 0;
+    padding: 1rem;
+}
