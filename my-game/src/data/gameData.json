@@ -1,0 +1,458 @@
+[
+  {
+    "id": 0,
+    "text": "Welcome to the Adventure Game! In this game, you will make choices that shape your story. Choose wisely to explore different paths and discover various endings. Let's begin your journey!",
+    "options": [
+      {
+        "text": "Start the adventure",
+        "nextId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "You are deep in a forest. What would you like to do?",
+    "options": [
+      {
+        "text": "Look for a safe spot",
+        "nextId": 2
+      },
+      {
+        "text": "Continue and explore",
+        "nextId": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "You found a cave. Should you enter?",
+    "options": [
+      {
+        "text": "Yes, let's go inside",
+        "nextId": 4
+      },
+      {
+        "text": "No, stay outside",
+        "nextId": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "You encounter a group of people on the road. Should you talk to them?",
+    "options": [
+      {
+        "text": "Yes, approach them",
+        "nextId": 6
+      },
+      {
+        "text": "No, ignore them",
+        "nextId": 7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "You found a treasure in the cave! What should you do now?",
+    "options": [
+      {
+        "text": "Take the treasure",
+        "nextId": 8
+      },
+      {
+        "text": "Leave the cave",
+        "nextId": 9
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "The weather outside is terrible. What should you do?",
+    "options": [
+      {
+        "text": "Seek shelter under a tree",
+        "nextId": 10
+      },
+      {
+        "text": "Run to find shelter",
+        "nextId": 11
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "The group welcomes you warmly. Would you like to travel with them?",
+    "options": [
+      {
+        "text": "Yes, join their journey",
+        "nextId": 12
+      },
+      {
+        "text": "No, continue alone",
+        "nextId": 13
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "The group doesn't notice you and continues on their way. After a while, you come across a swamp. What should you do?",
+    "options": [
+      {
+        "text": "Try to cross the swamp",
+        "nextId": 14
+      },
+      {
+        "text": "Try to find another path",
+        "nextId": 15
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "You took the treasure, but a group of bandits is chasing you! What should you do?",
+    "options": [
+      {
+        "text": "Fight the bandits",
+        "nextId": 16
+      },
+      {
+        "text": "Drop the treasure and run",
+        "nextId": 17
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "You left the cave and were met with sunlight, but a wild animal is watching you. What should you do?",
+    "options": [
+      {
+        "text": "Confront the animal",
+        "nextId": 18
+      },
+      {
+        "text": "Run away quickly",
+        "nextId": 19
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "You found shelter under a tree, but a storm is starting. What should you do?",
+    "options": [
+      {
+        "text": "Wait for the storm to pass",
+        "nextId": 20
+      },
+      {
+        "text": "Quickly build a shelter",
+        "nextId": 21
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "You ran and found a cave, but it's dark and scary inside. What should you do?",
+    "options": [
+      {
+        "text": "Go inside",
+        "nextId": 22
+      },
+      {
+        "text": "Wait outside",
+        "nextId": 23
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "You traveled with the group for a long time and finally found a safe place. You started a happy life here.",
+    "options": [
+      {
+        "text": "Start a new life and live happily",
+        "nextId": 24
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "You continued your journey alone and eventually found a safe place. However, the loneliness became hard to bear.",
+    "options": [
+      {
+        "text": "Try to make new friends",
+        "nextId": 25
+      },
+      {
+        "text": "Choose to remain alone",
+        "nextId": 26
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "You successfully crossed the swamp, but your body is very tired. What should you do?",
+    "options": [
+      {
+        "text": "Rest for a while",
+        "nextId": 27
+      },
+      {
+        "text": "Continue moving quickly",
+        "nextId": 28
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "You found another path, but you encountered a huge mountain. What should you do to reach your destination?",
+    "options": [
+      {
+        "text": "Try to climb the mountain",
+        "nextId": 29
+      },
+      {
+        "text": "Try to go around it",
+        "nextId": 30
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "You fought the bandits bravely and won! You safely hid the treasure and started a new life.",
+    "options": [
+      {
+        "text": "Live a happy life",
+        "nextId": 31
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "You dropped the treasure and ran, but the bandits continued chasing you. However, you finally reached a safe area.",
+    "options": [
+      {
+        "text": "Start a new beginning",
+        "nextId": 32
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "You confronted the animal and scared it off. Now you can safely reach your destination.",
+    "options": [
+      {
+        "text": "Start a new journey",
+        "nextId": 33
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "You quickly ran and hid in the depths of a forest. Eventually, you reached a safe place.",
+    "options": [
+      {
+        "text": "Start a new beginning",
+        "nextId": 34
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "The storm passed and the sky cleared. After finding a safe area, you continued your long journey.",
+    "options": [
+      {
+        "text": "Start a new journey",
+        "nextId": 35
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "You successfully built a shelter and waited for the storm to pass. You continued your journey afterward.",
+    "options": [
+      {
+        "text": "Reach your destination",
+        "nextId": 36
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "Inside the cave, you encountered a mysterious creature. However, you courageously faced it and befriended it.",
+    "options": [
+      {
+        "text": "Make a new friend",
+        "nextId": 37
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "You waited outside for the storm to pass and eventually reached a safe area.",
+    "options": [
+      {
+        "text": "Reach your destination",
+        "nextId": 38
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "You found peace in your new life and years later became known as a happy elder in the village.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "You started making new friends and became part of a large community. You lived a happy life together.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "You chose to remain alone, but the feeling of loneliness started to change you over time.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "After resting, you regained your strength and successfully completed your journey, earning a great reward.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "You continued moving quickly and reached your destination, fulfilling your dreams.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "You climbed the mountain and made an unexpected discovery at the summit! This discovery brought you a great reward.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "You took the alternate route and reached your destination quickly. This challenge made you stronger.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "You defeated the bandits and lived a happy life. From that day on, everything went smoothly.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "You started anew and despite the challenges, discovered the beauty of life.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "You successfully faced the animal and found peace. You continued living a safe life.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "You started a new life in the deep forest. You found peace and happiness throughout your life.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "You started your new journey and felt proud of everything you accomplished in life.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "After the storm, you stepped into a new world and lived a happy life there.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "You had great adventures with your new friend and eventually lived a peaceful life.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "After the storm, you opened a new chapter in your life and lived a peaceful existence.",
+    "options": [
+      {
+        "text": "End the game",
+        "nextId": 39
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "Congratulations, you've reached the end of your adventure! Would you like to start again?",
+    "options": [
+      {
+        "text": "Restart the game",
+        "nextId": 0
+      }
+    ]
+  }
+]

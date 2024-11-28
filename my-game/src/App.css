@@ -1,0 +1,25 @@
+html{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+button{
+  height: 1rem;
+  width: 10rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 2rem;
+  margin: 1rem;
+}
+button:hover{
+  background-color: green;
+}
+
