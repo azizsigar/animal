@@ -51,3 +51,59 @@ background-color: black;
   }
 }
 
+/* General Button Styles */
+button {
+  background-color: #4CAF50;  /* Green color for primary button */
+  color: white;
+  border: 2px solid #4CAF50;  /* Same as background color */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;  /* Rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  text-transform: uppercase; /* Make the text uppercase */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #45a049;  /* Darker green on hover */
+  border-color: #45a049;  /* Match border with background on hover */
+  transform: scale(1.05);  /* Slight scale effect on hover */
+}
+
+/* Focus Effect (when the button is clicked or focused) */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(72, 182, 90, 0.8); /* Green glow effect */
+}
+
+/* Secondary Button Style */
+button.secondary {
+  background-color: transparent;
+  color: #4CAF50;  /* Green text */
+  border: 2px solid #4CAF50;  /* Green border */
+}
+
+button.secondary:hover {
+  background-color: #4CAF50;  /* Green background on hover */
+  color: white;  /* White text when hovered */
+}
+
+button.secondary:focus {
+  box-shadow: 0 0 5px rgba(72, 182, 90, 0.8); /* Green glow effect */
+}
+
+/* Disabled Button Style */
+button:disabled {
+  background-color: #ccc;
+  color: #888;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
+  color: #888;
+}
