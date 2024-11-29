@@ -1,4 +1,5 @@
 
+import '../App.css';
 
 const UserCard = ({ user, onLike, onDislike }) => {
   return (

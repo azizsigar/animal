@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import LikedUsers from "./LikedUsers";
 import UserCard from "./UserCard";
 import { useFavorites } from "../context/FavoritesContext";
 import axios from "axios";
@@ -46,7 +45,6 @@ function MainApp() {
         <p>Loading...</p>
       )}
       
-      <LikedUsers />
     </div>
   );
 }

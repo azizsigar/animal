@@ -1,4 +1,3 @@
-// src/components/LikedUsers.js
 
 import { useFavorites } from '../context/FavoritesContext';
 
